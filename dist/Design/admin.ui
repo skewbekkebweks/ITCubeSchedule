@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Admin</class>
+ <widget class="QMainWindow" name="Admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Режим админа</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="2">
+     <widget class="QPushButton" name="remove_schedule_btn">
+      <property name="text">
+       <string>Удалить занятие</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="remove_teacher_btn">
+      <property name="text">
+       <string>Удалить учителя</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="group_box"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="teacher_label">
+      <property name="text">
+       <string>Выберите учителя</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="remove_group_btn">
+      <property name="text">
+       <string>Удалить группу</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="add_teacher_btn">
+      <property name="text">
+       <string>Добавить учителя</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="schedule_label">
+      <property name="text">
+       <string>Выберите циклическое занятие</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="teacher_box"/>
+    </item>
+    <item row="1" column="3">
+     <widget class="QPushButton" name="add_group_btn">
+      <property name="text">
+       <string>Добавить группу</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QPushButton" name="add_schedule_btn">
+      <property name="text">
+       <string>Добавить занятие</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="group_label">
+      <property name="text">
+       <string>Выберите группу</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="schdule_box"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="office_label">
+      <property name="text">
+       <string>Выберите кабинет</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QComboBox" name="office_box"/>
+    </item>
+    <item row="3" column="2">
+     <widget class="QPushButton" name="remove_office_btn">
+      <property name="text">
+       <string>Удалить кабинет</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QPushButton" name="add_office_btn">
+      <property name="text">
+       <string>Добавить кабинет</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
